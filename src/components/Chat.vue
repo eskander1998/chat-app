@@ -13,7 +13,6 @@
           </div>
       </div>
       <div class="card-footer">
-          <!-- <form @submit.prevent="sendMessage"> -->
               <div class="gorm-group">
                   <label for="user">User:</label>
                   <input type="text" v-model="user" class="form-control">
@@ -63,7 +62,6 @@
             
        
               <button type="submit" class="btn" style="background-color:#00548B; color: aliceblue;" @click="sendMessage">Send Message </button>
-          <!-- </form> -->
 
        
 
